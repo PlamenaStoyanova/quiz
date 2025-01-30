@@ -101,7 +101,7 @@
     <div class="nav-buttons"> <button onclick="history.back()">⬅ Назад</button> <button onclick="window.scrollTo(0, 0)">🔝 Начало</button> </div>
     <script>
         let correctAnswers = 0;
-        let totalQuestions = 15;
+        let totalQuestions = 8;
 
         function checkAnswer(element, isCorrect) {
             if (element.classList.contains('correct') || element.classList.contains('incorrect')) return;
@@ -120,7 +120,7 @@
                 resultText.innerHTML = "<span class='emoji'>👍😃</span><br>Поздравления! Справи се отлично!";
                 resultText.style.color = "green";
             } else {
-                resultText.innerHTML = "Прочети още по темата! Тук са правилните отговори:<br>";
+                resultText.innerHTML = "Прочети още по темата!<br>";
                 let options = document.querySelectorAll('.option');
                 options.forEach(option => {
                     if (option.classList.contains('correct')) {
