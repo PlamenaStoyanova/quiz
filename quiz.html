@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина за класически музикални инструменти</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .question {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .options {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+        }
+        .options label {
+            margin: 5px 0;
+        }
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Викторина за класически музикални инструменти</h1>
+
+    <form id="quiz">
+        <!-- Въпрос 1 -->
+        <div class="question">
+            <p>1. Кой инструмент се свири с лък?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="a"> Пиано</label>
+                <label><input type="radio" name="q1" value="b"> Цигулка</label>
+                <label><input type="radio" name="q1" value="c"> Тромпет</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 2 -->
+        <div class="question">
+            <p>2. Кой инструмент е струнен и се свири с пръсти?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> Арфа</label>
+                <label><input type="radio" name="q2" value="b"> Флейта</label>
+                <label><input type="radio" name="q2" value="c"> Барабан</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 3 -->
+        <div class="question">
+            <p>3. Кой инструмент е част от групата на духовите инструменти?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> Виолончело</label>
+                <label><input type="radio" name="q3" value="b"> Тромбон</label>
+                <label><input type="radio" name="q3" value="c"> Китара</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 4 -->
+        <div class="question">
+            <p>4. Кой инструмент е известен като "крал на инструментите"?</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> Орган</label>
+                <label><input type="radio" name="q4" value="b"> Китара</label>
+                <label><input type="radio" name="q4" value="c"> Барабан</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 5 -->
+        <div class="question">
+            <p>5. Кой инструмент има клавиши?</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> Пиано</label>
+                <label><input type="radio" name="q5" value="b"> Тромпет</label>
+                <label><input type="radio" name="q5" value="c"> Барабан</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 6 -->
+        <div class="question">
+            <p>6. Кой инструмент е най-големият в групата на струнните инструменти?</p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="a"> Контрабас</label>
+                <label><input type="radio" name="q6" value="b"> Цигулка</label>
+                <label><input type="radio" name="q6" value="c"> Виола</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 7 -->
+        <div class="question">
+            <p>7. Кой инструмент се свири чрез духане?</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="a"> Флейта</label>
+                <label><input type="radio" name="q7" value="b"> Арфа</label>
+                <label><input type="radio" name="q7" value="c"> Пиано</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 8 -->
+        <div class="question">
+            <p>8. Кой инструмент е с най-висок тон в групата на струнните инструменти?</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="a"> Цигулка</label>
+                <label><input type="radio" name="q8" value="b"> Виолончело</label>
+                <label><input type="radio" name="q8" value="c"> Контрабас</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 9 -->
+        <div class="question">
+            <p>9. Кой инструмент е част от ударните инструменти?</p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="a"> Барабан</label>
+                <label><input type="radio" name="q9" value="b"> Тромпет</label>
+                <label><input type="radio" name="q9" value="c"> Арфа</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 10 -->
+        <div class="question">
+            <p>10. Кой инструмент има най-голям брой струни?</p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="a"> Арфа</label>
+                <label><input type="radio" name="q10" value="b"> Цигулка</label>
+                <label><input type="radio" name="q10" value="c"> Китара</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 11 -->
+        <div class="question">
+            <p>11. Кой инструмент е известен със своя меден звучен тон?</p>
+            <div class="options">
+                <label><input type="radio" name="q11" value="a"> Тромпет</label>
+                <label><input type="radio" name="q11" value="b"> Флейта</label>
+                <label><input type="radio" name="q11" value="c"> Виолончело</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 12 -->
+        <div class="question">
+            <p>12. Кой инструмент се използва най-често в симфоничния оркестър за ритъм?</p>
+            <div class="options">
+                <label><input type="radio" name="q12" value="a"> Барабан</label>
+                <label><input type="radio" name="q12" value="b"> Арфа</label>
+                <label><input type="radio" name="q12" value="c"> Пиано</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 13 -->
+        <div class="question">
+            <p>13. Кой инструмент е с най-нисък тон в групата на духовите инструменти?</p>
+            <div class="options">
+                <label><input type="radio" name="q13" value="a"> Туба</label>
+                <label><input type="radio" name="q13" value="b"> Флейта</label>
+                <label><input type="radio" name="q13" value="c"> Тромпет</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 14 -->
+        <div class="question">
+            <p>14. Кой инструмент е известен със своя дървен корпус и струни?</p>
+            <div class="options">
+                <label><input type="radio" name="q14" value="a"> Виолончело</label>
+                <label><input type="radio" name="q14" value="b"> Тромпет</label>
+                <label><input type="radio" name="q14" value="c"> Барабан</label>
+            </div>
+        </div>
+
+        <!-- Въпрос 15 -->
+        <div class="question">
+            <p>15. Кой инструмент е най-често срещан в класическата музика като солов инструмент?</p>
+            <div class="options">
+                <label><input type="radio" name="q15" value="a"> Пиано</label>
+                <label><input type="radio" name="q15" value="b"> Барабан</label>
+                <label><input type="radio" name="q15" value="c"> Тромбон</label>
+            </div>
+        </div>
+
+        <button type="submit" class="submit-btn">Предай отговори</button>
+    </form>
+
+    <script>
+        document.getElementById('quiz').addEventListener('submit', function(event) {
+            event.preventDefault();
+            let score = 0;
+
+            // Правилни отговори
+            const answers = {
+                q1: 'b', q2: 'a', q3: 'b', q4: 'a', q5: 'a',
+                q6: 'a', q7: 'a', q8: 'a', q9: 'a', q10: 'a',
+                q11: 'a', q12: 'a', q13: 'a', q14: 'a', q15: 'a'
+            };
+
+            // Проверка на отговорите
+            for (let i = 1; i <= 15; i++) {
+                const questionName = `q${i}`;
+                const selectedAnswer = document.querySelector(`input[name="${questionName}"]:checked`);
+                if (selectedAnswer && selectedAnswer.value === answers[questionName]) {
+                    score++;
+                }
+            }
+
+            alert(`Вашият резултат е ${score} от 15!`);
+        });
+    </script>
+
+</body>
+</html>
